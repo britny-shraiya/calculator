@@ -1,0 +1,41 @@
+button{
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+    border:none;
+    background-color: hsla(0, 0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor:pointer;
+}
+#keys{
+ display:grid;
+ grid-template-columns: repeat(4,1fr);
+ gap:5px;
+ padding: 25px;
+
+
+}
+#display{
+
+height: 100px;
+background-color: black;
+COLOR: white;
+font-size: 3rem;
+font-weight: bold;
+grid-column: span 4;
+background: transparent;
+border-width: 0px;
+text-align: end;
+
+}
+#calculator{
+    width:600px;
+    height:600px;
+    background-color: black;
+    border: none;
+}
+.sum{
+    background-color: orange;
+}
